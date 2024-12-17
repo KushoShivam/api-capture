@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {FrontendCollector} from 'api-capture';
+import {FrontendCollector} from 'kusho-capture';
 
 // Initialize FrontendCollector
 const collector = new FrontendCollector({

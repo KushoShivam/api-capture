@@ -1,6 +1,6 @@
-# API Capture
+# Kusho Capture
 
-**API Capture** is a lightweight SDK to monitor and log API traffic across various JavaScript frameworks like **Node.js**, **React**, **NestJS**, **Electron**, and more. It can be easily integrated into existing codebases to collect, batch, and send API event data to a backend for further analysis.
+**Kusho Capture** is a lightweight SDK to monitor and log API traffic across various JavaScript frameworks like **Node.js**, **React**, **NestJS**, **Electron**, and more. It can be easily integrated into existing codebases to collect, batch, and send API event data to a backend for further analysis.
 
 ---
 
@@ -15,7 +15,7 @@
 
 ## Installation
 ```bash
-npm install api-capture
+npm install kusho-capture
 ```
 
 ---
@@ -26,7 +26,7 @@ npm install api-capture
 
 ```javascript
 const express = require('express');
-const { Middleware, EventCollector } = require('api-capture');
+const { Middleware, EventCollector } = require('kusho-capture');
 
 const app = express();
 const collector = new EventCollector({
@@ -52,7 +52,7 @@ app.listen(3000, () => {
 ```typescript
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { FrontendCollector } from 'api-capture';
+import { FrontendCollector } from 'kusho-capture';
 
 // Configure the frontend collector
 const apiCollector = new FrontendCollector({
@@ -136,8 +136,8 @@ Clone the repository and set up the development environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/api-capture.git
-cd api-capture
+git clone https://github.com/your-username/kusho-capture.git
+cd kusho-capture
 
 # Install dependencies
 npm install
@@ -199,4 +199,4 @@ npm link
 
 ## Contact
 
-For issues, support, or contributions, please open an issue on my [GitHub Repository](https://github.com/KushoShivam/api-capture).
+For issues, support, or contributions, please open an issue on my [GitHub Repository](https://github.com/KushoShivam/kusho-capture).

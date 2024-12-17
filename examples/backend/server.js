@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { Middleware, EventCollector } = require('api-capture');
+const { Middleware, EventCollector } = require('kusho-capture');
 
 // Create an event collector
 const collector = new EventCollector({
